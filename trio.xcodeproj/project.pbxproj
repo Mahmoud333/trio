@@ -12,6 +12,10 @@
 		042EFB4C203076D400CFDBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042EFB4A203076D400CFDBAF /* Main.storyboard */; };
 		042EFB4E203076D400CFDBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042EFB4D203076D400CFDBAF /* Assets.xcassets */; };
 		042EFB51203076D400CFDBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042EFB4F203076D400CFDBAF /* LaunchScreen.storyboard */; };
+		042EFB592030925F00CFDBAF /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EFB582030925F00CFDBAF /* TableCell.swift */; };
+		042EFB5B2030974E00CFDBAF /* MAImageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EFB5A2030974E00CFDBAF /* MAImageV.swift */; };
+		042EFB5D20309AAB00CFDBAF /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EFB5C20309AAB00CFDBAF /* CellData.swift */; };
+		042EFB5F20309B0C00CFDBAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EFB5E20309B0C00CFDBAF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		042EFB4D203076D400CFDBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042EFB50203076D400CFDBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042EFB52203076D400CFDBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042EFB582030925F00CFDBAF /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		042EFB5A2030974E00CFDBAF /* MAImageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAImageV.swift; sourceTree = "<group>"; };
+		042EFB5C20309AAB00CFDBAF /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		042EFB5E20309B0C00CFDBAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				042EFB4D203076D400CFDBAF /* Assets.xcassets */,
 				042EFB4F203076D400CFDBAF /* LaunchScreen.storyboard */,
 				042EFB52203076D400CFDBAF /* Info.plist */,
+				042EFB582030925F00CFDBAF /* TableCell.swift */,
+				042EFB5A2030974E00CFDBAF /* MAImageV.swift */,
+				042EFB5C20309AAB00CFDBAF /* CellData.swift */,
+				042EFB5E20309B0C00CFDBAF /* Constants.swift */,
 			);
 			path = trio;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EFB5B2030974E00CFDBAF /* MAImageV.swift in Sources */,
+				042EFB592030925F00CFDBAF /* TableCell.swift in Sources */,
 				042EFB49203076D400CFDBAF /* ViewController.swift in Sources */,
+				042EFB5D20309AAB00CFDBAF /* CellData.swift in Sources */,
 				042EFB47203076D400CFDBAF /* AppDelegate.swift in Sources */,
+				042EFB5F20309B0C00CFDBAF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PJQQ6WB3;
 				INFOPLIST_FILE = trio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epicSyst.trio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PJQQ6WB3;
 				INFOPLIST_FILE = trio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epicSyst.trio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
